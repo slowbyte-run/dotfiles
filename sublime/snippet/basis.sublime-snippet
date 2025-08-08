@@ -1,0 +1,102 @@
+<snippet>
+	<content><![CDATA[
+struct basis {
+	static const int LOG = 63;
+	vector<ll> b;
+	bool zero;
+
+	basis() {
+		b.resize(LOG + 1);
+		zero = false;
+	}
+	basis(vector<ll> &a) {
+		b.resize(LOG + 1);
+		gauss(a);		
+	}
+
+	void insert(ll x) {
+		ferd(i, LOG, 0) {
+			if(x >> i & 1) {
+				if(!b[i]) {
+					b[i] = x;
+					break;
+				}
+				x ^= b[i];
+			}
+		}
+		zero = true;
+	}
+
+	ll query_max(ll x = 0) {
+		ferd(i, LOG, 0) {
+			if((x ^ b[i]) > x) x ^= b[i];
+		}
+		return x;
+	}
+
+	ll query_min() {
+		fer(i, 0, LOG + 1) {
+			if(b[i]) return b[i];
+		}
+		return 0;
+	}
+
+	bool check(ll x) {
+		ferd(i, LOG, 0) {
+			if(x >> i & 1) {
+				if(!b[i]) return false;
+				x ^= b[i];
+			}
+		}
+		return true;
+	}
+
+	int len;
+	vector<ll> B;
+	void gauss(vector<ll> &a) {
+		len = 1;
+		zero = false;
+		B.assign(all(a));
+		int n = a.size() - 1;
+
+		ferd(i, LOG, 0) {
+			if(len > n) break;
+			fer(j, len, n + 1) {
+				if(B[j] & (1LL << i)) {
+					swap(B[j], B[len]);
+					break;
+				}
+			}
+			if(B[len] & (1LL << i)) {
+				fer(j, 1, n + 1) {
+					if(j != len && B[j] & (1LL << i)) {
+						B[j] ^= B[len];
+					}
+				}
+				len++;
+			}
+		}
+		len--;
+		zero = len != n;
+	}
+
+	ll getKthMin(ll k) {
+		if(zero && k == 1) return 0;
+		if(zero) k--;
+		if(k >= (1LL << len)) return -1;
+
+		ll ans = 0;
+		for(int i = len, j = 0; i >= 1; i--, j++) {
+			if(k & (1LL << j)) {
+				ans ^= B[i];
+			}
+		}
+		return ans;
+	}
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>basis</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
