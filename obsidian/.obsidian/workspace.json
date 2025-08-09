@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "8b87676d04ff9b55",
+    "type": "split",
+    "children": [
+      {
+        "id": "c5ae90389f360cbe",
+        "type": "tabs",
+        "dimension": 73.80281690140845,
+        "children": [
+          {
+            "id": "c1ce564496fb11ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Demo/a.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "a"
+            },
+            "group": "4199de07e6aee174"
+          }
+        ]
+      },
+      {
+        "id": "acf31e250064714f",
+        "type": "tabs",
+        "dimension": 26.197183098591548,
+        "children": [
+          {
+            "id": "d65ffb75740a5bc1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Demo/a.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "a 的大纲"
+            },
+            "group": "4199de07e6aee174"
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8ed89777c8fd4bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f375181a1d5dc920",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26141750a8597b9d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "502a582fa3f5e5aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Demo/a.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "a 的大纲"
+            }
+          },
+          {
+            "id": "2332f748378a2697",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#nodes",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "247f0d95dff57505",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5
+  },
+  "right": {
+    "id": "b5be494f26374e88",
+    "type": "split",
+    "children": [
+      {
+        "id": "b86043e30b26f30e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "61d2b81ba64b8787",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Demo/a.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "a 的反向链接列表"
+            }
+          },
+          {
+            "id": "e7bd2922817a7c8a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Demo/a.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "a 的出链列表"
+            }
+          },
+          {
+            "id": "19552d6b24b1f07b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "838a322486c8a080",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "d65ffb75740a5bc1",
+  "lastOpenFiles": [
+    "Demo/a.md",
+    "XCPC/Algorithm/Gragh/LCA/Tutorial/LCA算法介绍与倍增实现.md",
+    "第一章 数字逻辑概论/第一章 数字逻辑概论.md",
+    "Pasted image 20250604190344.png",
+    "Pasted image 20250604185622.png",
+    "第三章 组合逻辑电路/第三章 组合逻辑电路.md",
+    "Excalidraw/Drawing 2025-05-29 20.52.53.excalidraw.md",
+    "Excalidraw",
+    "第三章 组合逻辑电路/img/Pasted image 20250515223722.png",
+    "第三章 组合逻辑电路/img/Pasted image 20250515224544.png",
+    "第三章 组合逻辑电路/img/Pasted image 20250515224530.png",
+    "第三章 组合逻辑电路/img/Pasted image 20250515224323.png",
+    "第三章 组合逻辑电路/img/Pasted image 20250515224144.png",
+    "第三章 组合逻辑电路/img/Pasted image 20250515224101.png",
+    "第三章 组合逻辑电路/img/Pasted image 20250515223901.png",
+    "第三章 组合逻辑电路/img/Pasted image 20250515223741.png",
+    "第二章 逻辑代数与硬件描述语言基础/第二章 逻辑代数与硬件描述语言基础.md",
+    "第三章 组合逻辑电路/img",
+    "第三章 组合逻辑电路",
+    "README.md",
+    "第二章 逻辑代数与硬件描述语言基础/img",
+    "第一章 数字逻辑概论/img",
+    "第二章 逻辑代数与硬件描述语言基础",
+    "第一章 数字逻辑概论",
+    "第二章 进程管理.md",
+    "第一章 绪论&概述.md"
+  ]
+}
