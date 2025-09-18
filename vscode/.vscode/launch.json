@@ -2,6 +2,13 @@
   "version": "2.0.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "T08",
+      "request": "launch",
+      "mainClass": "T08",
+      "projectName": "javaPTA_c8cec8"
+    },
+    {
       "type": "auto-debug",
       "name": "自动",
       "request": "launch",
@@ -35,29 +42,6 @@
         "*.ps1": "PowerShell"
       }
     },
-
-    // MSVC配置在Linux上不需要，保留为注释
-    /*
-    {
-      "name": "C/C++(msvc)",
-      "type": "cppvsdbg",
-      "request": "launch",
-      "program": "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
-      "args": [
-        "<",
-        "${workspaceFolder}\\test\\in.txt",
-        ">",
-        "${workspaceFolder}\\test\\out.txt"
-      ],
-      "stopAtEntry": false,
-      "cwd": "${workspaceFolder}",
-      "environment": [],
-      "console": "integratedTerminal",
-      "preLaunchTask": "C/C++编译(msvc)",
-      "postDebugTask": "git提交"
-    },
-    */
-
     {
       "name": "C++(g++)",
       "type": "cppdbg",
@@ -87,8 +71,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "C++编译(g++)",
-      //"postDebugTask": "git提交"
+      "preLaunchTask": "C++编译(g++)"
     },
     {
       "name": "C(gcc)",
@@ -119,8 +102,7 @@
           "ignoreFailures": true
         }
       ],
-      "preLaunchTask": "C编译(gcc)",
-      //"postDebugTask": "git提交"
+      "preLaunchTask": "C编译(gcc)"
     },
     {
       "name": "C++(clang++)",
@@ -135,8 +117,7 @@
       ],
       "cwd": "${workspaceFolder}",
       "terminal": "integrated",
-      "preLaunchTask": "C++编译(clang++)",
-      //"postDebugTask": "git提交"
+      "preLaunchTask": "C++编译(clang++)"
     },
     {
       "name": "C(clang)",
@@ -151,35 +132,26 @@
       ],
       "cwd": "${workspaceFolder}",
       "terminal": "integrated",
-      "preLaunchTask": "C编译(clang)",
-      //"postDebugTask": "git提交"
+      "preLaunchTask": "C编译(clang)"
     },
     {
       "name": "Java",
       "type": "java",
       "request": "launch",
-      "args": [
-        "<",
-        "${workspaceFolder}/test/in.txt",
-        ">",
-        "${workspaceFolder}/test/out.txt"
-      ],
-      "mainClass": "${fileBasenameNoExtension}",
-      //"postDebugTask": "git提交"
+      "args": [],
+      "mainClass": "${fileBasenameNoExtension}"
     },
     {
       "name": "Java(compile)",
       "type": "java",
       "request": "launch",
-      "args": [
-        "<",
-        "${workspaceFolder}/test/in.txt",
-        ">",
-        "${workspaceFolder}/test/out.txt"
+      "args": [],
+      "mainClass": "${fileBasenameNoExtension}",
+      "classPaths": [
+        "${workspaceFolder}/bin"
       ],
-      "mainClass": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
-      "preLaunchTask": "java编译",
-      //"postDebugTask": "git提交"
+      "console": "integratedTerminal",
+      "preLaunchTask": "java编译"
     },
     {
       "name": "Python",
@@ -193,8 +165,7 @@
         ">",
         "${workspaceFolder}/test/out.txt"
       ],
-      "console": "integratedTerminal",
-      //"postDebugTask": "git提交"
+      "console": "integratedTerminal"
     },
     {
       "name": "Python(pypy)",
@@ -208,35 +179,8 @@
         ">",
         "${workspaceFolder}/test/out.txt"
       ],
-      "console": "integratedTerminal",
-      //"postDebugTask": "git提交"
+      "console": "integratedTerminal"
     },
-
-    // .NET相关配置在Linux下可以注释掉，如果安装了.NET或Mono可以取消注释
-    /*
-    {
-      "name": "C#(dotnet)",
-      "type": "coreclr",
-      "request": "launch",
-      "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}.exe",
-      "justMyCode": true,
-      "args": [
-        "<",
-        "${workspaceFolder}/test/in.txt",
-        ">",
-        "${workspaceFolder}/test/out.txt"
-      ],
-      "cwd": "${workspaceFolder}",
-      "stopAtEntry": false,
-      "console": "integratedTerminal",
-      "launchBrowser": {
-        "enabled": false
-      },
-      "preLaunchTask": "C#编译(dotnet)",
-      "postDebugTask": "git提交"
-    },
-    */
-
     {
       "name": "Nodejs",
       "type": "node",
@@ -248,8 +192,7 @@
         "${workspaceFolder}/test/in.txt",
         ">",
         "${workspaceFolder}/test/out.txt"
-      ],
-      //"postDebugTask": "git提交"
+      ]
     },
     {
       "name": "PHP",
@@ -263,8 +206,7 @@
         "${workspaceFolder}/test/out.txt"
       ],
       "cwd": "${workspaceFolder}",
-      "port": 9003,
-      //"postDebugTask": "git提交"
+      "port": 9003
     },
     {
       "name": "Go",
@@ -279,8 +221,7 @@
         ">",
         "${workspaceFolder}/test/out.txt"
       ],
-      "showLog": true,
-      //"postDebugTask": "git提交"
+      "showLog": true
     },
     {
       "name": "Rust",
@@ -293,8 +234,7 @@
         ">",
         "${workspaceFolder}/test/out.txt"
       ],
-      "preLaunchTask": "Rust编译",
-      //"postDebugTask": "git提交"
+      "preLaunchTask": "Rust编译"
     },
     {
       "name": "Ruby",
@@ -308,8 +248,7 @@
         ">",
         "${workspaceFolder}/test/out.txt"
       ],
-      "cwd": "${workspaceFolder}",
-      //"postDebugTask": "git提交"
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
