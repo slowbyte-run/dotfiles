@@ -1,0 +1,260 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "auto",        // Logo type: auto, builtin, small, file, etc.
+    "source": "~/.config/fastfetch/logoArch.png",      // Built-in logo name or file path
+    "width": 25,           // Width in characters
+    // "height": 35,          // Height in characters
+    "padding": {
+        "top": 7,          // Top padding
+        "left": 0,         // Left padding
+        "right": 2         // Right padding
+    }
+    // "color": {             // Override logo colors
+    //     "1": "blue",
+    //     "2": "green"
+    // }
+  },
+  "modules": [
+    // "title",
+    {
+      "type": "custom",
+      "format": "\u001b[32m╭──────────────────────── Hardware Information ─────────────────────────────────╮\u001b[0m"
+    },
+    {
+      "type": "os",
+      "key": "╭─ OS",
+      "keyColor": "green"
+    },
+    {
+      "type": "host",
+      "key": "├─ Host",
+      "keyColor": "green"
+    },
+    // "bios",
+    // "bootmgr",
+    // "board",
+    // "chassis",
+    {
+      "type": "kernel",
+      "key": "├─ Kernel",
+      "keyColor": "green"
+    },
+    // "initsystem",
+    // "uptime",
+    // "loadavg",
+    // "processes",
+    // "editor",
+    // "display",
+    // "brightness",
+    // "monitor",
+    // "wm",
+    // "wmtheme",
+    // "theme",
+    // "icons",
+    // "font",
+    // "cursor",
+    // "wallpaper",
+    // "terminal",
+    // "terminalfont",
+    // "terminalsize",
+    // "terminaltheme",
+    {
+      "type": "cpu",
+      "showPeCoreCount": true,
+      "temp": true,
+      "key": "├─ CPU",
+      "keyColor": "green"
+    },
+    // "cpucache",
+    {
+      "type": "cpuusage",
+      "key": "├─ CPU Usage",
+      "keyColor": "green"
+    },
+    {
+      "type": "gpu",
+      "driverSpecific": true,
+      "temp": true,
+      "key": "╰─ GPU",
+      "keyColor": "green"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[32m╰─────────────────────── End Hardware Information ──────────────────────────────╯\u001b[0m"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[33m╭──────────────────────── Storage Information ──────────────────────────────────╮\u001b[0m"
+    },
+    // "btrfs",
+    // {
+    //   "type": "btrfs",
+    //   "key": "╭─ btrfs",
+    //   "keyColor": "yellow",
+    //   "percent": {
+    //     "type": 3,
+    //     "green": 30,
+    //     "yellow": 70
+    //   }
+    // },
+    {
+      "type": "packages",
+      "key": "╭─ Packages",
+      "keyColor": "yellow"
+    },
+    {
+      "type": "disk",
+      "key": "├─ Disk",
+      "keyColor": "yellow",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70,
+      }
+    },
+    // {
+    //   "type": "physicalmemory",
+    //   "key": "├─ Physical Memory",
+    //   "keyColor": "yellow"
+    // },
+    {
+      "type": "swap",
+      "separate": true,
+      "key": "├─ Swap",
+      "keyColor": "yellow",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      }
+    },
+    {
+      "type": "memory",
+      "key": "╰─ Memory",
+      "keyColor": "yellow",
+      "percent": {
+        "type": 3,
+        "green": 30,
+        "yellow": 70
+      }
+    },
+    // "zpool",
+    // {
+    //     "type": "battery",
+    //     "temp": true
+    // },
+    // "poweradapter",
+    // "player",
+    // "media",
+    // {
+    //     "type": "publicip",
+    //     "timeout": 1000
+    // },
+    {
+      "type": "custom",
+      "format": "\u001b[33m╰─────────────────────── End Storage Information ───────────────────────────────╯\u001b[0m"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[35m╭──────────────────────── Software Information ─────────────────────────────────╮\u001b[0m"
+    },
+    {
+      "type": "shell",
+      "key": "╭─ Shell",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "terminal",
+      "key": "├─ Terminal",
+      "keyColor": "magenta"
+    },
+    // {
+    //   "type": "packages",
+    //   "key": "├─ Packages",
+    //   "keyColor": "magenta"
+    // },
+    {
+      "type": "lm",
+      "key": "├─ Login Manager",
+      "keyColor": "magenta"
+    }, 
+    {
+      "type": "de",
+      "key": "├─ Desktop",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "uptime",
+      "key": "├─ Uptime",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "wifi",
+      "key": "├─ WiFi",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "dns",
+      "key": "├─ DNS",
+      "keyColor": "magenta"
+    },
+    // "datetime",
+    // "vulkan",
+    // "opengl",
+    // "opencl",
+    // "users",
+    // "bluetooth",
+    // "bluetoothradio",
+    // "sound",
+    // "camera",
+    // "gamepad",
+    // "mouse",
+    // "keyboard",
+    // {
+    //   "type": "weather",
+    //   "timeout": 1000
+    // },
+    // {
+    //   "type": "netio",
+    //   "key": "├─ Network IO",
+    //   "keyColor": "magenta"
+    // },
+    // "diskio",
+    // {
+    //     "type": "physicaldisk",
+    //     "temp": true
+    // },
+    // "tpm",
+    // "version",
+    {
+      "type": "localip",
+      "showIpv6": false,
+      "showMac": false,
+      "showSpeed": false,
+      "showMtu": false,
+      "showLoop": false,
+      "showFlags": false,
+      "showAllIps": true,
+      "key": "├─ Local IP",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "locale",
+      "key": "╰─ Locale",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[35m╰─────────────────────── End Software Information ──────────────────────────────╯\u001b[0m"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 29,
+      "symbol": "circle"
+    }
+  ]
+}
