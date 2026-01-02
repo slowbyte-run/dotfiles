@@ -1,20 +1,22 @@
 必装
-git	命令简写
-sudo	连按两下esc可以自动补全sudo
-z	快速跳转目录
-extract	万能解压
-docker
-docker-compose
+
+- `git`	命令简写
+- `sudo`	连按两下esc可以自动补全sudo
+- `z`	快速跳转目录
+- `extract`	万能解压
+- `docker`
+- `docker-compose`
 
 其他
-zsh-autosuggestions
-zsh-syntax-highlighting
 
-fzf	模糊搜索
-history-substring-search	历史命令增强
+- `zsh-autosuggestions`
+- `zsh-syntax-highlighting`
 
+- `fzf`	模糊搜索
+- `history-substring-search`	历史命令增强
 
-oh-my-zsh自带插件
+`oh-my-zsh`自带插件
+
 ```zsh
 plugins=(
   git
@@ -102,6 +104,25 @@ git clone https://github.com/zsh-users/zsh-history-substring-search \
 ```zsh
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+```
+
+
+
+完整推荐
+
+```zsh
+plugins=(
+  git
+  sudo
+  z
+  extract
+  docker
+  docker-compose
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  history-substring-search
+)
+
 ```
 
 
