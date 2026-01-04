@@ -8,37 +8,16 @@ add_newline = true
 continuation_prompt = "[▸▹ ](dimmed white)"
 command_timeout = 1000
 
-arch_icon = ""
-win11_icon = "󰍹"
+# arch_icon = ""
+# win11_icon = "󰍹"
 
 format = '''
-[╭─](bold bright-black)[󰍹 ](bold bright-cyan)$directory$git_branch$singularity$kubernetes$vcsh$fossil_branch$hg_branch$pijul_channel$docker_context$helm$pulumi$terraform$vagrant$xmake$memory_usage$aws$gcloud$openstack$azure$custom
+[╭─](bold bright-black)[󰍹](bold bright-cyan)$directory$git_branch$git_commit$git_status$git_metrics$singularity$kubernetes$vcsh$fossil_branch$hg_branch$pijul_channel$docker_context$helm$pulumi$terraform$vagrant$xmake$memory_usage$aws$gcloud$openstack$azure$conda$custom$fill$cmd_duration$time
 [╰─](bold bright-black)$character'''
 
-right_format = """
-$conda
-$singularity\
-$kubernetes\
-$vcsh\
-$fossil_branch\
-$git_commit\
-$git_status\
-$hg_branch\
-$pijul_channel\
-$docker_context\
-$helm\
-$pulumi\
-$terraform\
-$vagrant\
-$xmake\
-$memory_usage\
-$aws\
-$gcloud\
-$openstack\
-$azure\
-$custom\
-$cmd_duration
-$time"""
+# right_format 仅在支持的 shell 中生效 (fish, zsh, elvish, nushell)
+# PowerShell 和 CMD 不支持 right_format，所以保持为空
+right_format = ""
 
 [fill]
 symbol = ' '
@@ -172,6 +151,8 @@ modified = "[📝](italic yellow)"
 staged = "[🟩┤[$count](bold white)│](italic bright-cyan)"
 renamed = "[⟲](italic bright-blue)"
 deleted = "[✕](italic red)"
+
+disabled = true
 
 [git_commit]
 style = "italic bright-cyan"
