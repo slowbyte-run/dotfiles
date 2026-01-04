@@ -8,10 +8,12 @@ add_newline = true
 continuation_prompt = "[▸▹ ](dimmed white)"
 command_timeout = 1000
 
+arch_icon = ""
+win11_icon = "󰍹"
+
 format = '''
-[╭─](bold bright-black)[](bold bright-cyan)$directory$git_branch$singularity$kubernetes$vcsh$fossil_branch$hg_branch$pijul_channel$docker_context$helm$pulumi$terraform$vagrant$xmake$memory_usage$aws$gcloud$openstack$azure$custom
-[╰─](bold bright-black)$character
-'''
+[╭─](bold bright-black)[󰍹 ](bold bright-cyan)$directory$git_branch$singularity$kubernetes$vcsh$fossil_branch$hg_branch$pijul_channel$docker_context$helm$pulumi$terraform$vagrant$xmake$memory_usage$aws$gcloud$openstack$azure$custom
+[╰─](bold bright-black)$character'''
 
 right_format = """
 $conda
