@@ -122,8 +122,9 @@ plugins=(
   zsh-syntax-highlighting
   history-substring-search
 )
-
 ```
 
 
-
+其他推荐
+- batcat
+- 
