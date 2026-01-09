@@ -24,8 +24,8 @@
     "deviceCode": "92f90aeb23fa95e57c58db2c258ed9519a24a66b",
     "pat": "ghu_fCw0qRVsqBIPaM7BbDTo6Rh3BCHo1p0hvxRQ",
     "accessToken": {
-      "token": "tid=679a0eb8973c949e80d2f87892054b84;exp=1754321324;sku=free_educational_quota;proxy-ep=proxy.individual.githubcopilot.com;st=dotcom;chat=1;cit=1;malfil=1;editor_preview_features=1;agent_mode=1;mcp=1;ccr=1;rt=1;8kp=1;ip=62.192.175.95;asn=AS32167:5dfee49f43fe671f9e33637a1057980b47b282ca3b8343a0a118da3e99dadc39",
-      "expiresAt": 1754321324
+      "token": "tid=679a0eb8973c949e80d2f87892054b84;exp=1767887748;sku=free_educational_quota;proxy-ep=proxy.individual.githubcopilot.com;st=dotcom;chat=1;cit=1;malfil=1;editor_preview_features=1;agent_mode=1;agent_mode_auto_approval=1;mcp=1;ccr=1;rt=1;8kp=1;ip=103.172.183.82;asn=AS147293:3891b20fbfc332ce69141c905d474e1befde1c151cfab1e4e32c1a4eed2b5f8c",
+      "expiresAt": 1767887748
     },
     "selectedModel": {
       "label": "Claude Sonnet 4",

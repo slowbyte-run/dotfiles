@@ -1,24 +1,47 @@
 {
   "main": {
-    "id": "c728d5d0602ac632",
+    "id": "8b87676d04ff9b55",
     "type": "split",
     "children": [
       {
-        "id": "82f8d0687e24a161",
+        "id": "c5ae90389f360cbe",
         "type": "tabs",
+        "dimension": 77.64198418404025,
         "children": [
           {
-            "id": "886e1fc5b62e13b7",
+            "id": "c1ce564496fb11ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archConfig/zsh/base.md",
+                "file": "nginx/nginx.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "base"
+              "title": "nginx"
+            }
+          }
+        ]
+      },
+      {
+        "id": "05bdf7cda82404da",
+        "type": "tabs",
+        "dimension": 22.358015815959742,
+        "children": [
+          {
+            "id": "d7ad4410dff2ddf8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "nginx/nginx.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "nginx 的大纲"
             }
           }
         ]
@@ -27,15 +50,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "74aaad9febf43325",
+    "id": "f8ed89777c8fd4bb",
     "type": "split",
     "children": [
       {
-        "id": "2646d379968cb22a",
+        "id": "f375181a1d5dc920",
         "type": "tabs",
         "children": [
           {
-            "id": "6fc4cc1ac93101b8",
+            "id": "26141750a8597b9d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +71,27 @@
             }
           },
           {
-            "id": "a90a9b94698e458e",
+            "id": "502a582fa3f5e5aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Demo/a.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "a 的大纲"
+            }
+          },
+          {
+            "id": "2332f748378a2697",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#nodes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +103,7 @@
             }
           },
           {
-            "id": "95bc07a5ce50e453",
+            "id": "247f0d95dff57505",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +116,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 271.5
   },
   "right": {
-    "id": "68748bcd350b5365",
+    "id": "b5be494f26374e88",
     "type": "split",
     "children": [
       {
-        "id": "766eec67b4d27ae6",
+        "id": "b86043e30b26f30e",
         "type": "tabs",
         "children": [
           {
-            "id": "ef92c23856495b66",
+            "id": "61d2b81ba64b8787",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archConfig/zsh/base.md",
+                "file": "Demo/a.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,32 +142,32 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "base 的反向链接列表"
+              "title": "a 的反向链接列表"
             }
           },
           {
-            "id": "1d42c3a7a2cf99fa",
+            "id": "e7bd2922817a7c8a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archConfig/zsh/base.md",
+                "file": "Demo/a.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "base 的出链列表"
+              "title": "a 的出链列表"
             }
           },
           {
-            "id": "9a499747ddd1c938",
+            "id": "19552d6b24b1f07b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -137,55 +175,102 @@
             }
           },
           {
-            "id": "2221b43986d457fd",
+            "id": "838a322486c8a080",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
             }
           },
           {
-            "id": "5fc75f276d8b3b06",
+            "id": "ff2fe19d4f8d73c3",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "archConfig/zsh/base.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "base 的大纲"
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "github-copilot-chat-view"
+            }
+          },
+          {
+            "id": "8bf70d997f1df644",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "886e1fc5b62e13b7",
+  "active": "c1ce564496fb11ed",
   "lastOpenFiles": [
-    "archConfig/zsh/plugin.md",
-    "archConfig/zsh/base.md"
+    "nginx/配置示例.md",
+    "nginx/nginx.md",
+    "docker/docker-compose/base.md",
+    "docker/docker-compose/更改yml无效.md",
+    "java/SpringBoot/初始化工程/推荐分层架构/示例.md",
+    "java/SpringBoot/初始化工程/推荐分层架构/三层分层架构外.md",
+    "java/SpringBoot/初始化工程/推荐分层架构/分层架构.md",
+    "docker/基础命令/base.md",
+    "docker/Dockerfile/base.md",
+    "docker/docker-compose",
+    "docker/Dockerfile",
+    "docker/install/install.md",
+    "docker/基础命令",
+    "docker/install/images/wsl2成功.png",
+    "docker/install/images/win加速.png",
+    "docker/install/images/windows安装包.png",
+    "docker/install/images/windows功能.png",
+    "docker/install/images/mac安装包.png",
+    "docker/install/images",
+    "assets/软件开发整体流程/软件开发整体流程.md",
+    "docker/install",
+    "docker/未命名.md",
+    "assets/软件开发整体流程",
+    "Tomcat/tomcat.md",
+    "res/readme.md",
+    "assets/images/Pasted image 20251208231842.png",
+    "assets/images/Pasted image 20251203144843.png",
+    "assets/主流全栈方向.md",
+    "assets/todo.md",
+    "assets/nodejs全栈和java全栈.md",
+    "assets/readme.md",
+    "assets/images",
+    "assets",
+    "java/SpringBoot/分层架构与分层解耦/持久层/Mybatis与JPA.md",
+    "java/SpringBoot/分层架构与分层解耦/分层架构/经典分层架构.md",
+    "java/SpringBoot/分层架构与分层解耦/分层架构/其他.md",
+    "java/SpringBoot/分层架构与分层解耦/分层架构/Result_VO.md",
+    "java/SpringBoot/分层架构与分层解耦/分层命名规范/命名规范.md",
+    "java/SpringBoot/分层架构与分层解耦/分层命名规范/SpringBoot_Mybatis.md",
+    "java/SpringBoot/分层架构与分层解耦/IOC_DI/IOC.md",
+    "java/SpringBoot/分层架构与分层解耦/IOC_DI/DI.md",
+    "java/SpringBoot/分层架构与分层解耦/持久层",
+    "java/SpringBoot/分层架构与分层解耦/分层架构",
+    "java/SSM/assets/2025-11-15-17-42-26-image.png",
+    "java/SSM/assets/2025-11-15-17-41-54-image.png",
+    "java/SSM/assets/2025-11-15-17-41-38-image.png"
   ]
 }
