@@ -1,1 +1,7 @@
-{}
+{
+  "interfaceFontFamily": "Consolas",
+  "textFontFamily": "Consolas",
+  "monospaceFontFamily": "Consolas",
+  "cssTheme": "Obsidian Nord",
+  "baseFontSize": 18
+}
