@@ -1,48 +1,50 @@
 {
   "main": {
-    "id": "8b87676d04ff9b55",
+    "id": "6ca0a5f4370ca4a0",
     "type": "split",
     "children": [
       {
-        "id": "c5ae90389f360cbe",
+        "id": "f33830e1c99754fd",
         "type": "tabs",
-        "dimension": 77.64198418404025,
+        "dimension": 75.29325513196481,
         "children": [
           {
-            "id": "c1ce564496fb11ed",
+            "id": "af917cad43b9f871",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx/nginx.md",
+                "file": "resource/讲义/day02/苍穹外卖-day02.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nginx"
-            }
+              "title": "苍穹外卖-day02"
+            },
+            "group": "3389102a94e1684b"
           }
         ]
       },
       {
-        "id": "05bdf7cda82404da",
+        "id": "aba7f0faf1613b7f",
         "type": "tabs",
-        "dimension": 22.358015815959742,
+        "dimension": 24.70674486803519,
         "children": [
           {
-            "id": "d7ad4410dff2ddf8",
+            "id": "536b38be11b9d585",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "nginx/nginx.md",
+                "file": "resource/讲义/day02/苍穹外卖-day02.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "nginx 的大纲"
-            }
+              "title": "苍穹外卖-day02 的大纲"
+            },
+            "group": "3389102a94e1684b"
           }
         ]
       }
@@ -50,15 +52,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f8ed89777c8fd4bb",
+    "id": "d3de00faa9d276b6",
     "type": "split",
     "children": [
       {
-        "id": "f375181a1d5dc920",
+        "id": "feed84303e17999b",
         "type": "tabs",
         "children": [
           {
-            "id": "26141750a8597b9d",
+            "id": "d35aacdeb42eef38",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,27 +73,12 @@
             }
           },
           {
-            "id": "502a582fa3f5e5aa",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Demo/a.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "a 的大纲"
-            }
-          },
-          {
-            "id": "2332f748378a2697",
+            "id": "9e7030f658f6f231",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#nodes",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +90,7 @@
             }
           },
           {
-            "id": "247f0d95dff57505",
+            "id": "57f1c9fba4a0e363",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -116,23 +103,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 300
   },
   "right": {
-    "id": "b5be494f26374e88",
+    "id": "383e3768a2fbce84",
     "type": "split",
     "children": [
       {
-        "id": "b86043e30b26f30e",
+        "id": "fd5b6d466dfa39e5",
         "type": "tabs",
         "children": [
           {
-            "id": "61d2b81ba64b8787",
+            "id": "363b448b9d357e9f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Demo/a.md",
+                "file": "docs/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,32 +129,32 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "a 的反向链接列表"
+              "title": "未命名 的反向链接列表"
             }
           },
           {
-            "id": "e7bd2922817a7c8a",
+            "id": "e64f7bae0d4410c9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Demo/a.md",
+                "file": "docs/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "a 的出链列表"
+              "title": "未命名 的出链列表"
             }
           },
           {
-            "id": "19552d6b24b1f07b",
+            "id": "ad8acf2fc0cdc0f5",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -175,17 +162,36 @@
             }
           },
           {
-            "id": "838a322486c8a080",
+            "id": "e3602054c4b43073",
             "type": "leaf",
             "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-ghost",
+              "title": "all-properties"
             }
           },
           {
-            "id": "ff2fe19d4f8d73c3",
+            "id": "6f0522f98264f571",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/未命名.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "未命名 的大纲"
+            }
+          },
+          {
+            "id": "c09ace2c9eca7cbe",
             "type": "leaf",
             "state": {
               "type": "github-copilot-chat-view",
@@ -193,84 +199,46 @@
               "icon": "lucide-ghost",
               "title": "github-copilot-chat-view"
             }
-          },
-          {
-            "id": "8bf70d997f1df644",
-            "type": "leaf",
-            "state": {
-              "type": "github-copilot-chat-view",
-              "state": {},
-              "icon": "bot-message-square",
-              "title": "Copilot Chat"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c1ce564496fb11ed",
+  "active": "af917cad43b9f871",
   "lastOpenFiles": [
-    "nginx/配置示例.md",
-    "nginx/nginx.md",
-    "docker/docker-compose/base.md",
-    "docker/docker-compose/更改yml无效.md",
-    "java/SpringBoot/初始化工程/推荐分层架构/示例.md",
-    "java/SpringBoot/初始化工程/推荐分层架构/三层分层架构外.md",
-    "java/SpringBoot/初始化工程/推荐分层架构/分层架构.md",
-    "docker/基础命令/base.md",
-    "docker/Dockerfile/base.md",
-    "docker/docker-compose",
-    "docker/Dockerfile",
-    "docker/install/install.md",
-    "docker/基础命令",
-    "docker/install/images/wsl2成功.png",
-    "docker/install/images/win加速.png",
-    "docker/install/images/windows安装包.png",
-    "docker/install/images/windows功能.png",
-    "docker/install/images/mac安装包.png",
-    "docker/install/images",
-    "assets/软件开发整体流程/软件开发整体流程.md",
-    "docker/install",
-    "docker/未命名.md",
-    "assets/软件开发整体流程",
-    "Tomcat/tomcat.md",
-    "res/readme.md",
-    "assets/images/Pasted image 20251208231842.png",
-    "assets/images/Pasted image 20251203144843.png",
-    "assets/主流全栈方向.md",
-    "assets/todo.md",
-    "assets/nodejs全栈和java全栈.md",
-    "assets/readme.md",
-    "assets/images",
-    "assets",
-    "java/SpringBoot/分层架构与分层解耦/持久层/Mybatis与JPA.md",
-    "java/SpringBoot/分层架构与分层解耦/分层架构/经典分层架构.md",
-    "java/SpringBoot/分层架构与分层解耦/分层架构/其他.md",
-    "java/SpringBoot/分层架构与分层解耦/分层架构/Result_VO.md",
-    "java/SpringBoot/分层架构与分层解耦/分层命名规范/命名规范.md",
-    "java/SpringBoot/分层架构与分层解耦/分层命名规范/SpringBoot_Mybatis.md",
-    "java/SpringBoot/分层架构与分层解耦/IOC_DI/IOC.md",
-    "java/SpringBoot/分层架构与分层解耦/IOC_DI/DI.md",
-    "java/SpringBoot/分层架构与分层解耦/持久层",
-    "java/SpringBoot/分层架构与分层解耦/分层架构",
-    "java/SSM/assets/2025-11-15-17-42-26-image.png",
-    "java/SSM/assets/2025-11-15-17-41-54-image.png",
-    "java/SSM/assets/2025-11-15-17-41-38-image.png"
+    "resource/讲义/day01/苍穹外卖-day01.md",
+    "resource/讲义/day12/苍穹外卖-day12.md",
+    "resource/讲义/day11/苍穹外卖-day11.md",
+    "resource/讲义/day10/苍穹外卖-day10.md",
+    "resource/讲义/day08/苍穹外卖-day08.md",
+    "resource/讲义/day07/苍穹外卖-day07.md",
+    "resource/讲义/day06/苍穹外卖-day06.md",
+    "resource/讲义/day05/苍穹外卖-day05.md",
+    "resource/讲义/day02/苍穹外卖-day02.md",
+    "resource/讲义/day03/苍穹外卖-day03.md",
+    "sky-server/target/classes/com/sky/controller/admin/EmployeeController.class",
+    "sky-server/target/classes/com/sky/controller/admin",
+    "sky-server/target/classes/com/sky/controller",
+    "sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java~",
+    "sky-server/target/classes/com/sky/service/impl/EmployeeServiceImpl.class",
+    "sky-server/target/classes/com/sky/service/impl",
+    "sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java~",
+    "docs/未命名.md"
   ]
 }
