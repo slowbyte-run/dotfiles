@@ -2,6 +2,7 @@
   "interfaceFontFamily": "Consolas",
   "textFontFamily": "Consolas",
   "monospaceFontFamily": "Consolas",
-  "cssTheme": "Obsidian Nord",
-  "baseFontSize": 18
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 18,
+  "accentColor": ""
 }

@@ -1,6 +1,10 @@
 [
-  "obsidian-minimal-settings",
   "obsidian-style-settings",
   "automatic-table-of-contents",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-pandoc",
+  "oz-clear-unused-images",
+  "obsidian-hover-editor",
+  "pdf-plus",
+  "templater-obsidian"
 ]

@@ -1,50 +1,50 @@
 {
   "main": {
-    "id": "6ca0a5f4370ca4a0",
+    "id": "8b87676d04ff9b55",
     "type": "split",
     "children": [
       {
-        "id": "f33830e1c99754fd",
+        "id": "c5ae90389f360cbe",
         "type": "tabs",
-        "dimension": 75.29325513196481,
+        "dimension": 77.40355174525413,
         "children": [
           {
-            "id": "af917cad43b9f871",
+            "id": "c1ce564496fb11ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resource/讲义/day02/苍穹外卖-day02.md",
+                "file": "obsidian/Plugins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "苍穹外卖-day02"
+              "title": "Plugins"
             },
-            "group": "3389102a94e1684b"
+            "group": "4199de07e6aee174"
           }
         ]
       },
       {
-        "id": "aba7f0faf1613b7f",
+        "id": "acf31e250064714f",
         "type": "tabs",
-        "dimension": 24.70674486803519,
+        "dimension": 22.596448254745866,
         "children": [
           {
-            "id": "536b38be11b9d585",
+            "id": "d65ffb75740a5bc1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "resource/讲义/day02/苍穹外卖-day02.md",
+                "file": "obsidian/Plugins.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "苍穹外卖-day02 的大纲"
+              "title": "Plugins 的大纲"
             },
-            "group": "3389102a94e1684b"
+            "group": "4199de07e6aee174"
           }
         ]
       }
@@ -52,15 +52,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d3de00faa9d276b6",
+    "id": "f8ed89777c8fd4bb",
     "type": "split",
     "children": [
       {
-        "id": "feed84303e17999b",
+        "id": "f375181a1d5dc920",
         "type": "tabs",
         "children": [
           {
-            "id": "d35aacdeb42eef38",
+            "id": "26141750a8597b9d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -73,12 +73,27 @@
             }
           },
           {
-            "id": "9e7030f658f6f231",
+            "id": "502a582fa3f5e5aa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Demo/a.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "a 的大纲"
+            }
+          },
+          {
+            "id": "2332f748378a2697",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#nodes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +105,7 @@
             }
           },
           {
-            "id": "57f1c9fba4a0e363",
+            "id": "247f0d95dff57505",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -103,23 +118,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5
   },
   "right": {
-    "id": "383e3768a2fbce84",
+    "id": "b5be494f26374e88",
     "type": "split",
     "children": [
       {
-        "id": "fd5b6d466dfa39e5",
+        "id": "b86043e30b26f30e",
         "type": "tabs",
         "children": [
           {
-            "id": "363b448b9d357e9f",
+            "id": "61d2b81ba64b8787",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/未命名.md",
+                "file": "Demo/a.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,32 +144,32 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "未命名 的反向链接列表"
+              "title": "a 的反向链接列表"
             }
           },
           {
-            "id": "e64f7bae0d4410c9",
+            "id": "e7bd2922817a7c8a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/未命名.md",
+                "file": "Demo/a.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "未命名 的出链列表"
+              "title": "a 的出链列表"
             }
           },
           {
-            "id": "ad8acf2fc0cdc0f5",
+            "id": "19552d6b24b1f07b",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -162,36 +177,17 @@
             }
           },
           {
-            "id": "e3602054c4b43073",
+            "id": "838a322486c8a080",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "type": "github-copilot-chat-view",
+              "state": {},
               "icon": "lucide-ghost",
-              "title": "all-properties"
+              "title": "github-copilot-chat-view"
             }
           },
           {
-            "id": "6f0522f98264f571",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "docs/未命名.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "未命名 的大纲"
-            }
-          },
-          {
-            "id": "c09ace2c9eca7cbe",
+            "id": "bbd765d21aaef80e",
             "type": "leaf",
             "state": {
               "type": "github-copilot-chat-view",
@@ -201,44 +197,77 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "af917cad43b9f871",
+  "active": "c1ce564496fb11ed",
   "lastOpenFiles": [
-    "resource/讲义/day01/苍穹外卖-day01.md",
-    "resource/讲义/day12/苍穹外卖-day12.md",
-    "resource/讲义/day11/苍穹外卖-day11.md",
-    "resource/讲义/day10/苍穹外卖-day10.md",
-    "resource/讲义/day08/苍穹外卖-day08.md",
-    "resource/讲义/day07/苍穹外卖-day07.md",
-    "resource/讲义/day06/苍穹外卖-day06.md",
-    "resource/讲义/day05/苍穹外卖-day05.md",
-    "resource/讲义/day02/苍穹外卖-day02.md",
-    "resource/讲义/day03/苍穹外卖-day03.md",
-    "sky-server/target/classes/com/sky/controller/admin/EmployeeController.class",
-    "sky-server/target/classes/com/sky/controller/admin",
-    "sky-server/target/classes/com/sky/controller",
-    "sky-server/src/main/java/com/sky/controller/admin/EmployeeController.java~",
-    "sky-server/target/classes/com/sky/service/impl/EmployeeServiceImpl.class",
-    "sky-server/target/classes/com/sky/service/impl",
-    "sky-server/src/main/java/com/sky/service/impl/EmployeeServiceImpl.java~",
-    "docs/未命名.md"
+    "tmp.md",
+    "未命名.canvas",
+    "obsidian/Plugins.md",
+    "java/分页查询/Template.md",
+    "java/分页查询/pagehelper结合动态sql的使用.md",
+    "java/分页查询/PageHelper.md",
+    "java/分页查询/原始方法.md",
+    "java/分页查询/完整工具类.md",
+    "java/结果封装/分页结果封装类.md",
+    "java/并发编程/LocalThread/base.md",
+    "docker/install/install.md",
+    "java/并发编程/LocalThread",
+    "java/并发编程",
+    "docker/docker-compose/base.md",
+    "docker/docker-compose/更改yml无效.md",
+    "docker/Dockerfile/base.md",
+    "docker/基础命令/base.md",
+    "java/API设计与测试/Swagger/Knife4j.md",
+    "database/redis/安装和使用/win11.md",
+    "java/登录认证与权限管理/过滤器和拦截器/过滤器/基本讲解.md",
+    "java/登录认证与权限管理/过滤器和拦截器/拦截器/基本讲解.md",
+    "java/登录认证与权限管理/过滤器和拦截器/过滤器",
+    "java/登录认证与权限管理/过滤器和拦截器/拦截器",
+    "java/登录认证与权限管理/过滤器和拦截器/执行流程.md",
+    "java/登录认证与权限管理/登录认证和权限管理/讲解02.md",
+    "java/登录认证与权限管理/登录认证和权限管理/讲解01.md",
+    "java/登录认证与权限管理/登录认证和权限管理/demo.md",
+    "java/登录认证与权限管理/密码加密/md5加密.md",
+    "java/登录认证与权限管理/Template/模板1.md",
+    "java/登录认证与权限管理/JWT/模板.md",
+    "java/登录认证与权限管理/过滤器和拦截器",
+    "java/登录认证与权限管理/登录认证和权限管理",
+    "java/登录认证与权限管理/密码加密",
+    "java/登录认证与权限管理/Template",
+    "java/登录认证与权限管理/JWT",
+    "java/登录认证与权限管理/CookieSessionJWT",
+    "java/SSM/assets/2025-11-15-17-42-26-image.png",
+    "java/SSM/assets/2025-11-15-17-41-54-image.png",
+    "java/SSM/assets/2025-11-15-17-41-38-image.png",
+    "java/SSM/assets/2025-11-15-17-40-41-image.png",
+    "java/SSM/assets/2025-11-15-15-16-11-image.png",
+    "java/SSM/assets/2025-11-15-14-49-48-image.png",
+    "java/SSM/assets/2025-11-15-14-45-05-image.png",
+    "java/SSM/assets/2025-11-15-14-30-39-image.png",
+    "java/SSM/assets/2025-11-15-14-30-29-image.png",
+    "java/SSM/assets/2025-11-15-14-23-47-image.png"
   ]
 }
