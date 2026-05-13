@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmp.md",
+                "file": "steam/wallpaper-engine/wallpaper-engine.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmp"
+              "title": "wallpaper-engine"
             },
             "group": "4199de07e6aee174"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmp.md",
+                "file": "steam/wallpaper-engine/wallpaper-engine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "tmp 的大纲"
+              "title": "wallpaper-engine 的大纲"
             },
             "group": "4199de07e6aee174"
           }
@@ -218,6 +218,15 @@
   },
   "active": "c1ce564496fb11ed",
   "lastOpenFiles": [
+    "arch-config/tools.md",
+    "steam/wallpaper-engine/wallpaper-engine.md",
+    "steam/wallpaper-engine",
+    "steam",
+    "arch-config/input/tools.md",
+    "arch-config/input/readme.md",
+    "arch-config/zsh/plugin.md",
+    "arch-config/zsh/base.md",
+    "tmp.md",
     "java/数据格式处理/数据封装/封装实体类属性与数据库字段对应.md",
     "java/数据格式处理/处理时间格式/时间格式处理.md",
     "java/数据格式处理/处理时间格式",
@@ -243,17 +252,8 @@
     "java/登录认证与权限管理/过滤器和拦截器/过滤器",
     "java/登录认证与权限管理/过滤器和拦截器/拦截器",
     "java/登录认证与权限管理/过滤器和拦截器/执行流程.md",
-    "java/登录认证与权限管理/登录认证和权限管理/讲解02.md",
-    "java/登录认证与权限管理/登录认证和权限管理/讲解01.md",
-    "java/登录认证与权限管理/登录认证和权限管理/demo.md",
-    "java/登录认证与权限管理/密码加密/md5加密.md",
-    "java/登录认证与权限管理/Template/模板1.md",
-    "java/登录认证与权限管理/JWT/模板.md",
-    "java/登录认证与权限管理/JWT/依赖引入.md",
     "java/登录认证与权限管理/过滤器和拦截器",
     "java/登录认证与权限管理/登录认证和权限管理",
-    "java/登录认证与权限管理/密码加密",
-    "java/登录认证与权限管理/Template",
     "java/SSM/assets/2025-11-15-17-42-26-image.png",
     "java/SSM/assets/2025-11-15-17-41-54-image.png",
     "java/SSM/assets/2025-11-15-17-41-38-image.png",
