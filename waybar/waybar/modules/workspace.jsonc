@@ -1,0 +1,7 @@
+{
+  "niri/workspaces": {
+    "format": "{index}",
+    "current-only": false,
+    "all-outputs": true
+  }
+}

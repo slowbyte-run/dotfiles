@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "steam/wallpaper-engine/wallpaper-engine.md",
+                "file": "niri/niri相关配置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wallpaper-engine"
+              "title": "niri相关配置"
             },
             "group": "4199de07e6aee174"
           }
@@ -36,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "steam/wallpaper-engine/wallpaper-engine.md",
+                "file": "niri/niri相关配置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "wallpaper-engine 的大纲"
+              "title": "niri相关配置 的大纲"
             },
             "group": "4199de07e6aee174"
           }
@@ -218,10 +218,26 @@
   },
   "active": "c1ce564496fb11ed",
   "lastOpenFiles": [
-    "arch-config/tools.md",
+    "mako/mako/mako-msg",
+    "mako/mako/config",
+    "mako/mako",
+    "mako",
+    "niri/mako",
+    "niri/niri/config.kdl",
+    "niri/niri/scripts/swayidle.sh",
+    "niri/niri/scripts",
+    "niri/niri",
+    "waybar/waybar/config.jsonc",
+    "waybar/waybar/tokens/workspace.css",
+    "waybar/waybar/README.md",
+    "logid/罗技驱动.md",
+    "virtualMachine/virtualBox.md",
+    "niri/niri相关配置.md",
+    "niri/快捷键.md",
+    "vim/相关配置.md",
+    "rofi/rofi.md",
     "steam/wallpaper-engine/wallpaper-engine.md",
-    "steam/wallpaper-engine",
-    "steam",
+    "arch-config/tools.md",
     "arch-config/input/tools.md",
     "arch-config/input/readme.md",
     "arch-config/zsh/plugin.md",
@@ -229,8 +245,6 @@
     "tmp.md",
     "java/数据格式处理/数据封装/封装实体类属性与数据库字段对应.md",
     "java/数据格式处理/处理时间格式/时间格式处理.md",
-    "java/数据格式处理/处理时间格式",
-    "java/数据格式处理",
     "java/结果封装/分页结果封装类.md",
     "java/并发编程/LocalThread/base.md",
     "java/分页查询/PageHelper.md",
@@ -239,21 +253,7 @@
     "java/分页查询/原始方法.md",
     "java/分页查询/完整工具类.md",
     "docker/install/install.md",
-    "java/并发编程/LocalThread",
-    "java/并发编程",
     "docker/docker-compose/base.md",
-    "docker/docker-compose/更改yml无效.md",
-    "docker/Dockerfile/base.md",
-    "docker/基础命令/base.md",
-    "java/API设计与测试/Swagger/Knife4j.md",
-    "database/redis/安装和使用/win11.md",
-    "java/登录认证与权限管理/过滤器和拦截器/过滤器/基本讲解.md",
-    "java/登录认证与权限管理/过滤器和拦截器/拦截器/基本讲解.md",
-    "java/登录认证与权限管理/过滤器和拦截器/过滤器",
-    "java/登录认证与权限管理/过滤器和拦截器/拦截器",
-    "java/登录认证与权限管理/过滤器和拦截器/执行流程.md",
-    "java/登录认证与权限管理/过滤器和拦截器",
-    "java/登录认证与权限管理/登录认证和权限管理",
     "java/SSM/assets/2025-11-15-17-42-26-image.png",
     "java/SSM/assets/2025-11-15-17-41-54-image.png",
     "java/SSM/assets/2025-11-15-17-41-38-image.png",
