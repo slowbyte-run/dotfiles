@@ -1,3 +1,6 @@
+
+一键激活 Jetbrains 旗下产品
+
 ```bash
 irm https://ckey.run/ | iex
 
