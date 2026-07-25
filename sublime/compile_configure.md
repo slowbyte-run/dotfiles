@@ -1,7 +1,6 @@
 ## FastOlympicCoding
 
 ```txt
-```txt
 {
   "run_settings": [
     {
@@ -33,6 +32,5 @@
   "tests_file_suffix": "__tests",
   "tests_relative_dir": "test_case"
 }
-```
 ```
 
