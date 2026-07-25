@@ -1,4 +1,3 @@
 - 字体: Fira Code
-- 字号: 16
 - 主题：ayu-mirage
 - 配色方案：Dracula

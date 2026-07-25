@@ -1,10 +1,12 @@
+```bash
 irm https://ckey.run/ | iex
 
-windows
+# windows
 irm https://ckey.run/ | iex
 
-linux
+# linux
 wget -q ckey.run -O ckey.run && bash ckey.run
 
-mac
+# mac
 curl -Ls ckey.run -o ckey.run && bash ckey.run
+```

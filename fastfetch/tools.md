@@ -10,4 +10,4 @@ magick ~/.config/fastfetch/logo.png -fuzz 5% -transparent white ~/.config/fastfe
 检验是否透明：
 file ~/.config/fastfetch/logo.png
 
-如果看到 RGDA 就有透明通道了
+如果看到 RGDA 说明就有透明通道了

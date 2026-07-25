@@ -1,3 +1,4 @@
+# Quick Start
 
 ```bash
 sudo pacman -S rofi
