@@ -1,4 +1,4 @@
-# Thin_time's Dotfiles
+# slowbyte's dotfiles
 
 Arch Linux + niri/dms-shell desktop dotfiles. Modular configs, ready to deploy.
 
@@ -10,7 +10,7 @@ Arch Linux + niri/dms-shell desktop dotfiles. Modular configs, ready to deploy.
 ## How to use
 
 ```bash
-git clone https://github.com/<user>/dotfiles.git ~/Projects/dotfiles
+git clone https://github.com/slowbyte-run/dotfiles.git ~/Projects/dotfiles
 
 # niri
 ln -sf ~/Projects/dotfiles/niri-dms/niri ~/.config/niri
