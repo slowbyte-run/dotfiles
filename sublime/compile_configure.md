@@ -1,6 +1,6 @@
 ## FastOlympicCoding
 
-```txt
+```sublime-settings
 {
   "run_settings": [
     {
