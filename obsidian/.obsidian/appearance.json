@@ -1,7 +1,7 @@
 {
-  "interfaceFontFamily": "Consolas",
-  "textFontFamily": "Consolas",
-  "monospaceFontFamily": "Consolas",
+  "interfaceFontFamily": "Fira Code,Consolas",
+  "textFontFamily": "FiraCode Nerd Font,Consolas",
+  "monospaceFontFamily": "FiraCode Nerd Font Mono,Consolas",
   "cssTheme": "Catppuccin",
   "baseFontSize": 18,
   "accentColor": ""
