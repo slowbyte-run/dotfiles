@@ -11,14 +11,12 @@
             "id": "db77646a55238056",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mindmapView",
               "state": {
-                "file": "knowledge-share-hub/module/user/01-接口层与请求详解.md",
-                "mode": "source",
-                "source": false
+                "file": "interview/Redis/未命名思维导图.md"
               },
-              "icon": "lucide-file",
-              "title": "01-接口层与请求详解"
+              "icon": "blocks",
+              "title": "未命名思维导图"
             }
           }
         ]
@@ -171,17 +169,25 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "mxmind:Mxmind": false,
-      "simple-mind-map:新建思维导图": false
+      "terminal:Open terminal": false
     }
   },
   "active": "db77646a55238056",
   "lastOpenFiles": [
-    "knowledge-share-hub/module/user/02-认证子系统.md",
-    "knowledge-share-hub/module/user/01-接口层与请求详解.md",
-    "knowledge-share-hub/module/user/00-模块总览与架构.md",
-    "graph/knowledge-share-hub/graph.md",
+    "interview/Redis/Redis数据结构.md",
+    "interview/Redis/未命名思维导图.md",
+    "interview/Redis/redis.md",
+    "design-patterns/创建型模式/工厂方法模式.md",
+    "design-patterns/创建型模式/单例模式.md",
+    "design-patterns/创建型模式/抽象工厂模式.md",
+    "design-patterns/结构型模式/代理模式.md",
     "group-buy-market/数据库/表结构设计.md",
+    "graph/knowledge-share-hub/graph.md",
+    "knowledge-share-hub/module/social/01-接口层与请求详解.md",
+    "knowledge-share-hub/module/social/00-模块总览与架构.md",
+    "knowledge-share-hub/module/user/01-接口层与请求详解.md",
+    "knowledge-share-hub/module/user/02-认证子系统.md",
+    "knowledge-share-hub/module/user/00-模块总览与架构.md",
     "未命名.canvas",
     "Excalidraw/Drawing 2026-08-16 21.12.04.excalidraw.md",
     "graph/knowledge-share-hub/未命名思维导图.md~",
@@ -209,14 +215,6 @@
     "assets/imgs/1786798833906652274 1.png",
     "group-buy-market/数据库",
     "group-buy-market",
-    "knowledge-share-hub/module/user/05-技术栈使用详解.md",
-    "knowledge-share-hub/module/user/03-用户资料子系统.md",
-    "knowledge-share-hub/module/shared/05-技术栈使用详解与已知问题.md",
-    "knowledge-share-hub/module/shared/04-工具类与跨模块协作.md",
-    "knowledge-share-hub/module/shared/03-中间件配置.md",
-    "knowledge-share-hub/module/shared/02-缓存基础设施.md",
-    "knowledge-share-hub/module/shared/01-通用响应与异常处理.md",
-    "knowledge-share-hub/module/shared/00-模块总览与架构.md",
     "java/SSM/assets/2025-11-15-17-42-26-image.png",
     "java/SSM/assets/2025-11-15-17-41-54-image.png",
     "java/SSM/assets/2025-11-15-17-41-38-image.png",
