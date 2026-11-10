@@ -1,2 +1,4 @@
-.obsidian/
-.vscode/
+# Obsidian / VS Code 状态目录：仅忽略仓库根目录（本仓库本身是一个 Obsidian vault），
+# 子目录下如 obsidian/.obsidian 是要纳入版本管理的配置快照。
+/.obsidian/
+/.vscode/
