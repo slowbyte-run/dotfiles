@@ -1,5 +1,5 @@
 sort=-time
-layer=overlay
+# layer=overlay
 background-color=#1e1e2eee
 width=300
 height=110
