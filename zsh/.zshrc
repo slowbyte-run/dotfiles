@@ -1,18 +1,3 @@
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/anaconda/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/anaconda/etc/profile.d/conda.sh" ]; then
-        . "/opt/anaconda/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/anaconda/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -158,28 +143,42 @@ alias la='eza -lha --icons --group-directories-first --color=always'
 
 eval $(thefuck --alias)
 
-# obsidian 配置初始化工具
+# obsidian 配置初始化脚本
 alias obsidian-init='/home/thin-time/Templates/project-template/init-script/obsidian-init/obsidian-init.sh'
 
-# workflow-init 项目工作流初始化工具
+# workflow-init 项目工作流初始化脚本
 alias workflow-init='/home/thin-time/Templates/project-template/init-script/workflow-init/workflow-init.sh'
 
+# xcpc-init XCPC 代码目录初始化脚本
+alias xcpc-init='/home/thin-time/Templates/project-template/init-script/xcpc-init/xcpc-init.sh'
+
 # pnpm
-export PNPM_HOME="/home/thin-time/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME/bin:"*) ;;
-  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
-esac
+# export PNPM_HOME="/home/thin-time/.local/share/pnpm"
+# case ":$PATH:" in
+#   *":$PNPM_HOME/bin:"*) ;;
+#   *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+# esac
 # pnpm end
 
 export PROJECT_PATH="$HOME/Projects"
 export PATH="$(npm prefix -g)/bin:$PATH"
 
 # OpenClaw Completion
-[ -f "/home/thin-time/.openclaw/completions/openclaw.zsh" ] && source "/home/thin-time/.openclaw/completions/openclaw.zsh"
+# [ -f "/home/thin-time/.openclaw/completions/openclaw.zsh" ] && source "/home/thin-time/.openclaw/completions/openclaw.zsh"
 
 # nvm
 source /usr/share/nvm/init-nvm.sh
 
 export EDITOR=vim
 export VISUAL=vim
+
+# QODER_DISPATCHER_PATH v1
+path=("$HOME/.qoder/entry" ${path:#"$HOME/.qoder/entry"})
+export PATH
+# END QODER_DISPATCHER_PATH v1
+
+# node fetch
+export NODE_USE_ENV_PROXY=1
+
+# added by dbx installer
+export PATH="$HOME/.dbx/bin:$PATH"
