@@ -1,0 +1,16 @@
+{
+  "terminalApp": {
+    "linux": "kitty"
+  },
+  "openAtCurrentNoteFolder": false,
+  "reuseExistingMacApp": true,
+  "enableClaude": false,
+  "enableCodex": false,
+  "enableCursor": false,
+  "enableGemini": false,
+  "enableOpencode": false,
+  "enableWslOnWindows": false,
+  "enableGitCommitPush": false,
+  "enableGitPull": false,
+  "defaultCommitMessage": "docs: Update"
+}

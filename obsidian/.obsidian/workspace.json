@@ -11,15 +11,28 @@
             "id": "db77646a55238056",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "interview/Redis/未命名思维导图.md"
+                "file": "knowledge-share-hub/module/social/01-接口层与请求详解.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "blocks",
-              "title": "未命名思维导图"
+              "icon": "lucide-file",
+              "title": "01-接口层与请求详解"
+            }
+          },
+          {
+            "id": "16768905ce2d3bb2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,19 +181,11 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "terminal:Open terminal": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db77646a55238056",
+  "active": "16768905ce2d3bb2",
   "lastOpenFiles": [
-    "interview/Redis/Redis数据结构.md",
-    "interview/Redis/未命名思维导图.md",
-    "interview/Redis/redis.md",
-    "design-patterns/创建型模式/工厂方法模式.md",
-    "design-patterns/创建型模式/单例模式.md",
-    "design-patterns/创建型模式/抽象工厂模式.md",
-    "design-patterns/结构型模式/代理模式.md",
     "group-buy-market/数据库/表结构设计.md",
     "graph/knowledge-share-hub/graph.md",
     "knowledge-share-hub/module/social/01-接口层与请求详解.md",
@@ -215,6 +220,13 @@
     "assets/imgs/1786798833906652274 1.png",
     "group-buy-market/数据库",
     "group-buy-market",
+    "knowledge-share-hub/module/user/05-技术栈使用详解.md",
+    "knowledge-share-hub/module/user/03-用户资料子系统.md",
+    "knowledge-share-hub/module/shared/05-技术栈使用详解与已知问题.md",
+    "knowledge-share-hub/module/shared/04-工具类与跨模块协作.md",
+    "knowledge-share-hub/module/shared/03-中间件配置.md",
+    "knowledge-share-hub/module/shared/02-缓存基础设施.md",
+    "knowledge-share-hub/module/shared/01-通用响应与异常处理.md",
     "java/SSM/assets/2025-11-15-17-42-26-image.png",
     "java/SSM/assets/2025-11-15-17-41-54-image.png",
     "java/SSM/assets/2025-11-15-17-41-38-image.png",
