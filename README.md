@@ -32,6 +32,22 @@ ln -sf ~/Projects/dotfiles/btop ~/.config/btop
 
 # logid
 sudo ln -sf ~/Projects/dotfiles/logid/logid.cfg /etc/logid.cfg
+
+# nvim
+ln -sf ~/Projects/dotfiles/nvim ~/.config/nvim
+
+# fcitx5
+ln -sf ~/Projects/dotfiles/fcitx5 ~/.config/fcitx5
+
+# git
+ln -sf ~/Projects/dotfiles/git/.gitconfig ~/.gitconfig
+
+# gtk / qt / kde 主题
+ln -sf ~/Projects/dotfiles/gtk/gtk-3.0/settings.ini ~/.config/gtk-3.0/settings.ini
+ln -sf ~/Projects/dotfiles/gtk/gtk-4.0/settings.ini ~/.config/gtk-4.0/settings.ini
+ln -sf ~/Projects/dotfiles/qt/qt5ct ~/.config/qt5ct
+ln -sf ~/Projects/dotfiles/qt/qt6ct ~/.config/qt6ct
+ln -sf ~/Projects/dotfiles/kde/kdeglobals ~/.config/kdeglobals
 ```
 
 ## DMS 自动生成的文件
