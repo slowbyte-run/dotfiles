@@ -1,0 +1,30 @@
+[user]
+	name = slowbyte-run
+	email = slowbyte.run@gmail.com
+	signingkey = /home/thin-time/.ssh/id_rsa.pub
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+	editor = vim
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[safe]
+	directory = /opt/esp-idf
+	directory = /opt/esp-idf/components/openthread/openthread
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
+[gpg]
+	format = ssh
+[safe]
+	directory = *
+[gpg "ssh"]
+	allowedSignersFile = /home/thin-time/.ssh/allowed_signers
